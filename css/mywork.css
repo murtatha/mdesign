@@ -1,0 +1,127 @@
+.all-page{
+    height: 800px
+}
+
+.mywork {
+    margin: 40px 0;
+}
+
+.mywork .box {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.mywork .box img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.mywork .box .work-info {
+    width: 100%;
+    height: 100%;
+    background: #323232;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    overflow: hidden;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+/*
+.mywork .box:hover .work-info {
+    right: 0;
+}
+
+.mywork .box:hover img {
+    left: -100%;
+}
+*/
+
+.mywork .box .work-info h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #7b7979;
+    padding-bottom: 10px;
+    color: #fc0
+}
+
+.mywork .box .work-info p {
+    font-size: 12px;
+    font-family: tahoma;
+    text-align: right;    
+}
+.mywork .box .work-info a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fc0;
+    padding: 5px;
+    color: #333;
+    text-shadow: 0 0 0 #777;
+}
+
+.mywork .box .work-info span.label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 6px 10px;
+    font-family: tahoma;
+    background-color: #fc0;
+    margin: 0 -6px;
+    font-size: 15px;
+    border-radius: 0;
+    color: #333;
+}
+
+.nav-work {
+    background: rgba(255, 255, 255, 0.2);
+    list-style: none;
+    overflow: hidden;
+}
+
+.nav-work li {
+    float: left;
+}
+
+.nav-work li button {
+    padding: 15px 20px;
+    background: rgba(0, 0, 0, 0.2);
+    color: #FFF;
+    border: none;
+    text-transform: uppercase;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.nav-work li.active button {
+    background: rgba(255, 255, 255, 0.2);
+    padding-right: 40px;
+}
+
+.nav-work li:last-child button {
+    border-right: none;
+}

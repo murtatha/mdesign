@@ -1,0 +1,259 @@
+/*=======================================================================================================================================================================================================================About Me Page Style =====================================================*/
+
+h1.myName {
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
+    color: #FFF;
+    padding: 10px 20px;
+}
+
+h1.myName:after {
+    content: "";
+    width: 3px;
+    height: 100%;
+    background: #fc0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+h1.myName:hover:after {
+    right: 100%;
+}
+
+h1.myName p {
+    text-align: right;
+    color: #EEE;
+    font-size: 15px;
+    margin: 15px
+}
+
+.about-me {
+    padding: 50px 0;
+    background: #fff;
+}
+
+.sectionTitle {
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    position: relative;
+    border-bottom: 2px solid #FC0;
+    display: inline-block
+}
+
+.sectionTitle:after {
+    content: "";
+    width: 30%;
+    height: 8px;
+    background: #FC0;
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.sectionTitle:hover:after {
+    width: 100%;
+}
+
+.about-me p {
+    line-height: 35px;
+    color: #999;
+    font-size: 13px;
+}
+
+.mySkills {
+    padding: 50px 0;
+    background: #eee
+}
+
+.skills-info {
+    margin-bottom: 50px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    font-size: 20px
+}
+
+.cir-des {
+    text-align: center;
+    margin: 30px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.linePar {
+    width: 100%;
+    height: 8px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+footer.footer {
+    padding: 40px 0;
+    background: #333;
+    color: #FFF;
+}
+
+footer.footer h3 {
+    color: #FFF;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    border-bottom: 1px solid #Fc0;
+    position: relative;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: tahoma;
+    letter-spacing: 2px;
+}
+
+footer.footer h3:after {
+    content: "";
+    width: 20%;
+    height: 3px;
+    background: #Fc0;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+footer.footer .container .row div:hover h3:after {
+    width: 100%;
+}
+
+footer.footer .social-media a {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    border: 1px solid #fff;
+    color: #fff;
+    position: relative;
+    z-index: 99;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+footer.footer .social-media a:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    transform: scale(0)
+}
+
+footer.footer .social-media a:hover:after {
+    transform: scale(1)
+}
+
+footer.footer .social-media a:hover {
+    color: #333;
+}
+
+footer.footer .email-update p {
+    font-size: 14px;
+    font-family: tahoma;
+    letter-spacing: 2px;
+    color: #EEE;
+}
+
+footer.footer .email-update .form-group {
+    height: 80px;
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    overflow: hidden
+}
+
+footer.footer .email-update input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    position: relative;
+}
+
+footer.footer .email-update label {
+    position: absolute;
+    top: 0;
+    margin: 10px;
+    left: 0;
+    pointer-events: none;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+footer.footer .email-update i {
+    margin-right: 5px;
+}
+
+footer.footer .email-update button {
+    position: absolute;
+    left: -100px;
+    background: #fc0;
+    color: #333;
+    border: none;
+    padding: 7px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+} 
+
+footer.footer .email-update input:focus + label {
+    background: #FFF;
+    color: #333;
+    margin: 0;
+    padding: 5px 15px;
+    -webkit-transform: translateY(38px);
+    -moz-transform: translateY(38px);
+    -o-transform: translateY(38px);
+    -ms-transform: translateY(38px);
+    transform: translateY(38px);
+}
+
+.modal-body {
+    padding: 0 !important
+}
+
+.gallery-footer > a {
+    color: #Fc0
+}
